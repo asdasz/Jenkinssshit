@@ -1,3 +1,3 @@
 FROM container
 WORKDIR Build
-RUN ./run-tests.sh
+RUN run-tests.sh

@@ -1,3 +1,4 @@
 FROM build_img
 WORKDIR Build
-CMD /programmer-calculator/run-tests.sh
+CMD cd /programmer-calculator
+CMD run-tests.sh
